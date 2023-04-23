@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:ital,wght@0,700;0,800;1,700;1,800&family=Poppins:wght@600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    
+}
+
+ul ,li{
+   list-style-type: none;
+   font-family: 'Lato', sans-serif;
+}
+
+.resume__container{
+      max-width: 800px;
+      height: auto;
+      display: grid;
+      place-items: center;
+      grid-template-columns: repeat(2,auto);
+      
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 0.4rem;
+      -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  border: none;
+  outline: none;
+    }
+
+   .resume__left  {
+         width: 350px;
+         height: 100%;
+         border:none;
+         padding: 0.5rem;
+         background:#4099d4dc;
+         border-top-left-radius: 0.5rem;
+         border-bottom-left-radius: 0.5rem;
+      padding-bottom: 2rem;
+        }
+
+
+   
+
+   .resume__right{
+    width: 450px;
+    height: 100%;
+    border: none;
+    padding: 0.5rem;
+    border-top-right-radius: 0.5rem;
+         border-bottom-right-radius: 0.5rem;
+         padding-bottom: 2rem;
+ }
+
+ .name__head{
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 1rem;
+ }
+
+ .name__designation{
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding-bottom: 0.5rem;
+    font-family: 'Georgia', serif;
+    padding-left: 1rem;
+ }
+
+ 
+ 
+ 
+
+ .contact__head ,
+ .lang__head ,
+ .interst__head ,
+ .education__head,
+ .personal__head,
+ .skill__head,
+ .project__head{
+        font-size: 1rem;
+        font-weight: 800;
+        
+        text-transform: uppercase;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        padding: 0.8rem;
+       
+       Background: #4169E1;
+       padding-left: 0.5rem;
+       display: inline-block;
+       width: fit-content;
+       
+  border-radius: 0.3rem;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  border: none;
+  outline: none;
+   letter-spacing: 1px;
+  color: #ffffff;
+text-decoration: none;
+font-family: 'Open Sans', sans-serif;
+ }
+
+ .personal__head,
+ .skill__head,
+ .project__head{
+   background-color: #D1D1D1;
+   color: #333333;
+ }
+
+ .skill__one,
+ .skill__two,
+ .skill__three,
+ .project__html,
+ .project__javascript{
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 0.2rem;
+    padding-bottom:0.4rem;
+    font-family: 'Poppins', sans-serif;
+    color:  #4099d4dc;
+    letter-spacing: 1px;
+ }
+ 
+
+ .personal__lead ,
+ .html__para,
+ .education__lead{
+   font-size: 1rem;
+   text-indent: 40px;
+   padding: 0.2rem;
+   font-weight: 400;
+  line-height: 1.5rem;
+  text-align: justify;
+  font-family: 'Georgia', serif;
+  color: #333333;
+
+ }
+
+ .html__para{
+   font-size: 0.8rem;
+   text-indent: 60px;
+   padding: 0.3rem;
+   font-weight: 400;
+  line-height: 1.5rem;
+  
+
+ }
+
+ .project-description strong {
+   font-weight: bold;
+   text-transform: capitalize;
+   color: #555555;
+ }
+ 
+
+ .education__lead{
+   color: #FFFFFF;
+ }
+
+ .contact__mobile ,
+ .contact__email,
+ .contact__twitter,
+ .contact__address{
+      padding-left: 1rem;
+      font-size: 1rem;
+      color: #FFFFFF;
+      padding-bottom: 0.5rem;
+      font-weight: 400;
+     line-height: 1.5rem;
+     text-align: justify;
+
+ }
+
+ .las,.lab,.lar{
+      padding-right: 0.5rem;
+      color: #D1D1D1;
+
+ }
+
+ .br{
+   display: block;
+   padding-left: 1.5rem;
+ }
+
+.list__one,.list__two,.list__three {
+       margin: 5px auto; 
+       padding-left: 1rem;
+        text-transform: capitalize;
+        font-weight: 300;
+        font-style: oblique;
+
+}
+
+
+.left__list{
+   color: #ffffff;
+}
